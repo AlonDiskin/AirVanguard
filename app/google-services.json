@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "717492696488",
+    "firebase_url": "https://airvanguard-2250a.firebaseio.com",
+    "project_id": "airvanguard-2250a",
+    "storage_bucket": "airvanguard-2250a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717492696488:android:e9ad856bcebd8e01",
+        "android_client_info": {
+          "package_name": "com.example.alon.airvanguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717492696488-q9ndfpgt7v8nfshpcrovnuoe2irsnn6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alon.airvanguard",
+            "certificate_hash": "be5a5daf7c9595b12a81382a4252b9f66018c457"
+          }
+        },
+        {
+          "client_id": "717492696488-1v7qgsu6bh6bhdmcidjaf9ign9iko79v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9vM6i1ltxG5qB-AyangXbBnczWlnefNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717492696488-1v7qgsu6bh6bhdmcidjaf9ign9iko79v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

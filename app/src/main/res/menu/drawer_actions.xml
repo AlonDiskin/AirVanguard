@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_action_edit_mission"
+            android:checked="false"
+            android:icon="@drawable/ic_mode_edit_black_18dp"
+            android:title="@string/drawer_action_title_edit_mission" />
+
+        <item
+            android:id="@+id/drawer_action_distress_calls"
+            android:checked="false"
+            android:icon="@drawable/ic_place_black_18dp"
+            android:title="@string/drawer_action_title_distress_calls" />
+
+        <item
+            android:id="@+id/drawer_action_map_type"
+            android:checked="false"
+            android:icon="@drawable/ic_map_black_18dp"
+            android:title="@string/drawer_action_title_map_type" />
+
+        <item
+            android:id="@+id/drawer_action_settings"
+            android:checked="false"
+            android:icon="@drawable/ic_settings_black_18dp"
+            android:title="@string/drawer_action_settings" />
+
+    </group>
+</menu>

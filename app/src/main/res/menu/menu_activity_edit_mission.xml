@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.alon.airvanguard.presentation.drone_control.DroneControlActivity">
+
+    <item
+        android:id="@+id/action_map_type"
+        android:icon="@drawable/ic_map_white_24dp"
+        android:title="Map type"
+        app:showAsAction="always" >
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/action_map_normal"
+                    android:title="Normal" />
+                <item android:id="@+id/action_map_satellite"
+                    android:title="Satellite" />
+                <item android:id="@+id/action_map_terrain"
+                    android:title="Terrain" />
+                <item android:id="@+id/action_map_hybrid"
+                    android:title="Hybrid" />
+            </group>
+        </menu>
+
+
+    </item>
+
+    <item
+        android:id="@+id/action_load_calls"
+        android:title="Load distress calls"
+        android:icon="@drawable/ic_load_distress_calls_white_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_mark_location"
+        android:icon="@drawable/ic_my_location_white_24dp"
+        android:title="Mark current location"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@drawable/ic_undo_white_24dp"
+        android:title="Undo last"
+        app:showAsAction="always" />
+</menu>

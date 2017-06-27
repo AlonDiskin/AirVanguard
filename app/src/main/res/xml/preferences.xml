@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_category_display"
+        android:layout="@layout/pref_category">
+
+        <ListPreference
+            android:defaultValue="@string/pref_default_theme"
+            android:dialogTitle="@string/pref_dialog_title_theme"
+            android:entries="@array/pref_entries_theme"
+            android:entryValues="@array/pref_entryValues_theme"
+            android:key="@string/pref_key_theme"
+            android:summary="@string/pref_summary_theme"
+            android:title="@string/pref_title_theme" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_default_map_type"
+            android:dialogTitle="@string/pref_title_map_type"
+            android:entries="@array/pref_entries_map_type"
+            android:entryValues="@array/pref_entryValues_map_type"
+            android:key="@string/pref_key_map_type"
+            android:summary="@string/pref_summary_map_type"
+            android:title="@string/pref_title_map_type" />
+
+        <ListPreference
+            android:key="@string/pref_key_unit_type"
+            android:title="@string/pref_title_unit_type"
+            android:summary="@string/pref_summary_unit_type"
+            android:dialogTitle="@string/pref_dialog_title_unit_type"
+            android:entries="@array/pref_entries_unit_type"
+            android:entryValues="@array/pref_entryValues_unit_type"
+            android:defaultValue="@string/pref_default_unit_type"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_notifications"
+        android:layout="@layout/pref_category">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_distress_notification"
+            android:summary="@string/pref_summary_distress_notification"
+            android:title="@string/pref_title_distress_notification" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:dependency="@string/pref_key_distress_notification"
+            android:key="@string/pref_key_notification_vibration"
+            android:summary="@string/pref_summary_notification_vibration"
+            android:title="@string/pref_title_notification_vibration" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/pref_category"
+        android:title="Drone">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref_key_speech_output"
+            android:title="Speech output"
+            android:summary="Enable speech output over important events"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

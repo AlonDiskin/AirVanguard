@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">AirVanguard</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="drawer_action_settings">Settings</string>
+    <string name="pref_category_display">Display</string>
+    <string name="pref_title_map_type">Map Type</string>
+    <string name="pref_default_map_type">1</string>
+    <string name="pref_default_theme">Light</string>
+    <string name="pref_default_unit_type">0</string>
+    <string name="pref_key_map_type">map type</string>
+    <string name="pref_category_notifications">Notifications</string>
+    <string name="pref_key_distress_notification">Distress Notification</string>
+    <string name="pref_summary_map_type">Select map type</string>
+    <string name="pref_title_distress_notification">Distress Notification</string>
+    <string name="pref_summary_distress_notification">Enable distress call notifications</string>
+    <string name="pref_key_theme">app theme</string>
+    <string name="pref_title_theme">App Theme</string>
+    <string name="pref_summary_theme">Select application theme</string>
+    <string name="pref_dialog_title_theme">App Theme</string>
+    <string name="label_settings_activity">Settings</string>
+    <string name="pref_key_notification_vibration">notification vibration</string>
+    <string name="pref_summary_notification_vibration">Enable vibration when notification received</string>
+    <string name="pref_title_notification_vibration">Vibration</string>
+    <string name="pref_key_notification_ringtone">notification ringtone</string>
+    <string name="pref_summary_notification_ringtone">Select notification ringtone</string>
+    <string name="pref_title_notification_ringtone">Alert Ringtone</string>
+    <string name="pref_key_unit_type">unit type</string>
+    <string name="pref_title_unit_type">Data Units</string>
+    <string name="pref_summary_unit_type">Select data measurement system</string>
+    <string name="pref_dialog_title_unit_type">Data Units</string>
+    <string name="drawer_action_title_map_type">Map Type</string>
+    <string name="drawer_action_title_distress_calls">Distress Calls</string>
+    <string name="distress_call_sending_time_format">MMMM d HH:mm</string>
+    <string name="dialog_title_drone_circle">Circle Radius</string>
+    <string name="dialog_title_edit_mission">Edit mission</string>
+    <string name="dialog_positive_button_title">OK</string>
+    <string name="dialog_negative_button_title">Cancel</string>
+    <string name="dialog_message_edit_mission">edit mission to call made by %1$s ?</string>
+    <string name="dialog_title_edit_mission_point">Edit Point %1$d</string>
+    <string name="drone_bettary_level">%1%d %</string>
+    <string name="key_distress_call_mission_edit">Distress call</string>
+    <string name="drone_marker_title">Drone</string>
+    <string name="dialog_title_edit_complete">Mission Edit</string>
+    <string name="dialog_message_edit_complete">Mission edit completed?</string>
+    <string name="edit_dialog_tag">edit_dialog</string>
+    <string name="point_editor_dialog_tag">point_editor_dialog</string>
+    <string name="key_mission_points">mission_points</string>
+    <string name="edit_mission_dialog_tag">edit_mission</string>
+    <string name="toast_drone_connected">Drone connected!</string>
+    <string name="toast_drone_disconnected">Drone disconnected!</string>
+    <string name="connect_toggle">Connect</string>
+    <string name="disconnect_toggle">Disconnect</string>
+    <string name="drawer_item_edit">Edit mission</string>
+    <string name="drawer_item_distress_calls">Distress calls</string>
+    <string name="drawer_item_section_maps">Maps</string>
+    <string name="drawer_item_map_normal">Normal</string>
+    <string name="drawer_item_map_hybrid">Hybrid</string>
+    <string name="drawer_item_map_satellite">Satellite</string>
+    <string name="drawer_item_map_terrain">Terrain</string>
+    <string name="drawer_item_settings">Settings</string>
+    <string name="drawer_item_about">About</string>
+    <string name="init_telemetry_metric_air_speed">0.0kmh</string>
+    <string name="init_telemetry_metric_vertical_speed">0.0m/s</string>
+    <string name="init_telemetry_metric_altitude">0.0m</string>
+    <string name="init_telemetry_metric_home">0m</string>
+    <string name="init_telemetry_imperial_air_speed">0.0mph</string>
+    <string name="init_telemetry_imperial_vertical_speed">0.0ft/s</string>
+    <string name="init_telemetry_imperial_altitude">0.0ft</string>
+    <string name="init_telemetry_imperial_home">0ft</string>
+
+    <string-array name="pref_entries_map_type">
+        <item>Normal</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+        <item>Hybrid</item>
+    </string-array>
+    <string-array name="pref_entryValues_map_type">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="pref_entries_theme">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="pref_entryValues_theme">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="pref_entries_unit_type">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="pref_entryValues_unit_type">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="drone_connections_types">
+        <item>UDP</item>
+        <item>USB</item>
+    </string-array>
+
+    <string name="title_activity_edit_mission">EditMission</string>
+    <string name="drawer_action_title_edit_mission">Edit mission</string>
+    <string name="pref_category_other">Other</string>
+    <string name="pref_key_voice_confirm">voice confirmation</string>
+    <string name="pref_title_voice_confirm">Voice Confirmation</string>
+    <string name="pref_summary_voice_confirm">Enable voice conformation over important changes</string>
+    <string name="init_telemetry_battery">0%</string>
+
+    <string-array name="drone_modes">
+        <item>Stabilize</item>
+        <item>Auto</item>
+        <item>Guided</item>
+        <item>RTL</item>
+        <item>Circle</item>
+        <item>Land</item>
+    </string-array>
+    <string-array name="point_types">
+        <item>Way point</item>
+        <item>Circle</item>
+        <item>Land</item>
+        <item>RTL</item>
+    </string-array>
+
+</resources>

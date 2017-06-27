@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="zoom_street">20</integer>
+    <integer name="zoom_city">15</integer>
+    <integer name="map_type_normal">1</integer>
+    <integer name="map_type_satellite">2</integer>
+    <integer name="map_type_terrain">3</integer>
+    <integer name="map_type_hybrid">4</integer>
+    <integer name="drawer_close_anim_interval">200</integer>
+</resources>
